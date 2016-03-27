@@ -1,0 +1,14 @@
+{
+  "name": "fizzbuzz-tdd",
+  "version": "0.0.0",
+  "description": "A personal implementation of Fizzbuzz, test-driven.",
+  "author": "Guillaume Burel <guillaume@yimgo.fr>",
+  "scripts": {
+    "start": "node src/fizzbuzz.js",
+    "test": "mocha --reporter spec test/fizzbuzz-spec.js"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*"
+  }
+}
